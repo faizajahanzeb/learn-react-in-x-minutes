@@ -19,7 +19,7 @@ function App() {
 
   function toggleTodo(id) {
     const newTodos = [...todos]
-    const todo = newTodos.find(todo => todo.id === id)
+    const todo = newTodos.find(todo1 => todo1.id === id)
     todo.complete = !todo.complete
     setTodos(newTodos)
   }
